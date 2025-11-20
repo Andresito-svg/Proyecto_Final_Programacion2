@@ -49,7 +49,7 @@ Columnas:15
 -release month: Mes de salida al mercado.
 -Year: Año de salida al mercado.
 
-##Instrucciones para ejecutar el notebook y activar el entorno:
+## Instrucciones para ejecutar el notebook y activar el entorno:
 -Paso 1:
 Debido a que el proyecto fue realizado en Google Colab, primero se debe montar el Google Drive para acceder al excel en el cual está la base de datos. Esto se realizó con el siguiente código:
 "from google.colab import drive
