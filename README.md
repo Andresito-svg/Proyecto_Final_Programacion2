@@ -4,3 +4,4 @@ Grupo 3
 ## Integrantes
 -Andres Romero
 -Daniela Buitrago
+-Juliana Guerra 
