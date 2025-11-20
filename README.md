@@ -115,3 +115,8 @@ df.head(10)
 df.info()
 df.shape
 los cuales sirven para revisar los primeros 10 datos de la base de datos, la información de las variables (Tipo,Nulo) y las filas y columnas.
+
+
+## Conclusiones
+1. El proceso de limpieza y depuración del dataset permitió garantizar la calidad y confiabilidad del análisis, dado que se identificó que no había ningún dato faltante y se eliminaron variables irrelevantes, como year. Esta fue fundamental para asegurar que los resultados posteriores se basaran en datos consistentes y estructurados adecuadamente.
+2. Se realizó una búsqueda de los procesadores, evaluando características, funcionamiento y ranking en el mercado, esto permitió identificar que los celulares equipados con procesadores de mayor rendimiento tienden a ubicarse dentro de la gama alta, lo cual incrementa significativamente su valor comercial. Esto confirma la importancia del procesador como componente determinante en el desempeño general del dispositivo móvil.
