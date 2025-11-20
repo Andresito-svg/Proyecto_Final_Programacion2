@@ -3,3 +3,4 @@ La base de datos elegida tiene 1001 datos, dentro de los cuales se encuentra inf
 Grupo 3
 ## Integrantes
 -Andres Romero
+-Daniela Buitrago
