@@ -7,15 +7,15 @@ Grupo 3
 -Juliana Guerra 
 
 ## Explicación:
-# Archivos:
+### Archivos:
 -Global_Mobile_Prices_2025_Extended.
 -Proyecto.IPYNB
 
-# Cantidad de datos:
+### Cantidad de datos:
 Filas:1000
 Columnas:15
 
-# Tipo de dato:
+### Tipo de dato:
 -Brand: Object.
 -Model: Object.
 -Price_usd: int64.  
@@ -26,6 +26,11 @@ Columnas:15
 -display_size_inch: float64.
 -Charging_watts: int64.
 -5g_support: object.
+-os: object. 
+-processor: object.
+-rating: float64.
+-release month: object.
+-Year: int64.
 
 ## Diccionario de los datos:
 -Brand: Nombre del marca del celular. 
