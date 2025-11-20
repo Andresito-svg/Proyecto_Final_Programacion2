@@ -6,16 +6,16 @@ Grupo 3
 -Daniela Buitrago
 -Juliana Guerra 
 
-##Explicación:
-#Archivos:
+## Explicación:
+# Archivos:
 -Global_Mobile_Prices_2025_Extended.
 -Proyecto.IPYNB
 
-#Cantidad de datos:
+# Cantidad de datos:
 Filas:1000
 Columnas:15
 
-#Tipo de dato:
+# Tipo de dato:
 -Brand: Object.
 -Model: Object.
 -Price_usd: int64.  
@@ -27,19 +27,20 @@ Columnas:15
 -Charging_watts: int64.
 -5g_support: object.
 
-
-##Diccionario de los datos:
--Brand: Nombre del marca del celular.
--Model: Modelo del celular.
--Price_usd: Precio del celular en dolares.
--Ram_gb: Cantidad de gb de ram que tiene el celular.
--Storage_gb: Capacidad de almacenamiento en gb del celular.
--Camera_mp: megapixeles de la cámara frontal.
--Battery_mah: Capacidad de mah de la bateria.
--display_size_inch: Tamaño en pulgadas de la pantalla.
--Charging_watts: Capacidad de cargar en watts del celular.
--5g_support: configuración de 5G.
--os: Sistema operativo.
+## Diccionario de los datos:
+-Brand: Nombre del marca del celular. 
+-Model: Modelo del celular. 
+-Price_usd: Precio del celular en dolares. 
+-Ram_gb: Cantidad de gb de ram que tiene el celular. 
+-Storage_gb: Capacidad de almacenamiento en gb del celular. 
+-Camera_mp: megapixeles de la cámara frontal. 
+-Battery_mah: Capacidad de mah de la bateria. 
+-display_size_inch: Tamaño en pulgadas de la pantalla. 
+-Charging_watts: Capacidad de cargar en watts del celular. 
+-5g_support: configuración de 5G. 
+-os: Sistema operativo. 
 -processor: Tipo de procesador.
--
+-rating: calificación de los críticos.
+-release month: Mes de salida al mercado.
+-Year: Año de salida al mercado.
 
