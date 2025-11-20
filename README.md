@@ -49,3 +49,30 @@ Columnas:15
 -release month: Mes de salida al mercado.
 -Year: Año de salida al mercado.
 
+##Instrucciones para ejecutar el notebook y activar el entorno:
+-Paso 1:
+Debido a que el proyecto fue realizado en Google Colab, primero se debe montar el Google Drive para acceder al excel en el cual está la base de datos. Esto se realizó con el siguiente código:
+"from google.colab import drive
+drive.mount('/content/drive')"
+
+-Paso 2:
+Luego de montar el entorno se ubica la dirección del archivo excel usando la siguiente línea:
+%cd "//content/drive/MyDrive/Colab Notebooks/Universidad/Progra 2/Proyecto/"
+
+-Paso 3:
+Continuando se descargan e instalan las librerias necesarias usando el comando import _ as _ , que en este caso fueron:
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+-Paso 4:
+Como siguiente paso se cargó la base de datos, que tiene como nombre "Global_Mobile_Prices_2025_Limpia1.xlsx". Para poder usar esta base se le asignó un nombre y uso el comando pd.read_excel como se muestra a continuación:
+df = pd.read_excel("Global_Mobile_Prices_2025_Limpia1.xlsx")
+
+-Paso 5:
+Finalmente se verificó que no hubiera ningún inconveniente, por lo que se usaron los siguientes comandos:
+df.head(10)
+df.info()
+df.shape
+los cuales sirven para revisar los primeros 10 datos de la base de datos, la información de las variables (Tipo,Nulo) y las filas y columnas.
